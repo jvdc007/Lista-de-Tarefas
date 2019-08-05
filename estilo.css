@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('img/backg.jpeg');
+    background-size: 100%;
+;}
+
+header{
+    background-color: rgba(1, 1, 1, 0.8);
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+}
+
+section{
+    background-image: linear-gradient(45deg, #00804b, #003c80);
+    width: 50%;
+    margin: 50px auto;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 20pt;
+    display: flex;
+    flex-direction: column;
+}
+
+section p{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+section li{
+    font-size: 15pt;
+    margin-left: 35px;
+}
+
+section div#inputs{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+section div#inputs input#texto{
+    width: 80%;
+    height: 30px;
+}
+
+section div#inputs input#botao{
+    height: 30px;
+    margin-left: 10px;
+    background-color: rgba(1,1,1,0);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px;
+}
+
+section div#inputs input#botao:hover{
+    background-color: white;
+    color: black;
+    transition: background-color 1s;
+}
