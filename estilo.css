@@ -22,7 +22,8 @@ header h1{
 }
 
 section{
-    background-image: linear-gradient(45deg, #00804b, #003c80);
+    background-image: linear-gradient(45deg, rgba(0,128,75,0.8), rgba(0,60,128,0.8));
+    border: 2px solid white;
     width: 50%;
     margin: 50px auto;
     border-radius: 5px;
@@ -44,6 +45,14 @@ section li{
     margin-left: 35px;
 }
 
+section li a{
+    font-size: 10pt;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-style: oblique;
+}
+
 section div#inputs{
     display: flex;
     align-items: center;
@@ -59,7 +68,7 @@ section div#inputs input#texto{
 
 section div#inputs input#botao{
     height: 30px;
-    margin-left: 10px;
+    margin: 0 10px;
     background-color: rgba(1,1,1,0);
     border: 1px solid white;
     border-radius: 5px;
